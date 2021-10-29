@@ -4,6 +4,9 @@ import userEvent from '@testing-library/user-event';
 
 import ContactForm from './ContactForm';
 
+// Confused because all tests are in here written already?
+
+
 test('renders without errors', ()=>{
     render(<ContactForm/>);
 });
